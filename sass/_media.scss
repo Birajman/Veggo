@@ -1,0 +1,140 @@
+@media (max-width:770px) {
+    body
+    {
+        overflow-x: hidden;
+    }
+    .first_part
+    {
+        li
+        {
+            &:last-child
+            {
+                display: none;
+            }
+        }
+    }
+    .carousel .carousel-control-prev
+    {
+        width: 2rem;
+        height: 4rem;
+    }
+    .png
+    {
+        margin-top: 10rem;
+        margin-bottom: 17rem;
+    }
+    .shop
+    {
+        .row
+        {
+            margin-top: -20rem;
+        }
+        .text
+        {
+            text-align: center;
+        }
+        .second_part
+        {
+            text-align: center;
+            padding-bottom: 5rem;
+        }
+    }
+    .product
+    {
+        display: none;
+    }
+    .services 
+    {
+        position: relative;
+        top: -30rem;
+        .owl-carousel
+        {
+            h1
+            {
+                display: none;
+            }
+        }
+    }
+    .store
+    {
+        position: relative;
+        top: -30rem;
+    }
+    .fruit
+    {
+        position: relative;
+        top: -25rem;
+        text-align: center;
+        .row
+        {
+            img
+            {
+                margin-top: 5rem;
+            }
+        }
+    }
+    .delivery
+    {
+        display: none;
+    }
+    .blog
+    {
+        position: relative;
+        top: -20rem;
+        .row
+        {
+            .col-lg-4
+            {
+                margin: 5rem 0;
+                h3
+                {
+                    display: none;
+                }
+            }
+        }
+    }
+    footer
+    {
+        position: relative;
+        top: -25rem;
+        .second
+        {
+            margin-top: 3rem;
+            position: relative;
+            left: 10rem;
+        }
+        .third
+        {
+            margin-top: 3rem;
+            position: relative;
+            left: 20rem;
+        }
+        .fourth
+        {
+            display: none;
+        }
+    }
+    .copyright
+    {
+        position: relative;
+        top: -25rem;
+    }
+}
+@media (max-width:800px) {
+    .png
+    {
+        .row
+        {
+            .ss
+            {
+                margin: 2rem 0;
+            }
+        }
+    }
+    .shop
+    {
+        
+    }
+    
+
+}

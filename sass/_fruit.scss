@@ -1,0 +1,49 @@
+.fruit
+{
+    background-color: $fruit;
+    margin-top: 10rem;
+    .row
+    {
+        padding: 5rem 0;
+        align-items: center;
+        .first
+        {
+            h1
+            {
+                color: #FFFFFF;
+                font-family: "Oleo Script", Sans-serif;
+                font-size: 62px;
+                font-weight: bold;
+                text-shadow: 0px 7px 10px rgba(67, 49, 49, 0.2);        
+            }
+            p
+            {
+                color: #000000;
+                font-family: "Roboto", Sans-serif;
+                font-size: 17px;
+                font-weight: 400;
+                letter-spacing: 0.8px;
+                margin: 3.5rem 0;
+            }
+            button
+            {
+                font-family: "Roboto Condensed", Sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                fill: #282828;
+                color: #282828;
+                background-color: #FFFFFF;
+                border-radius: 100px 100px 100px 100px;
+                padding: 22px 40px 22px 40px;
+                transition: 2s;
+                &:hover
+                {
+                    background-color: $sec;
+                    color: white;
+                }
+            }
+        }
+    }
+}

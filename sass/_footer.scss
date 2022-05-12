@@ -1,0 +1,99 @@
+footer
+{
+    background-image: url(https://netnus.net/veggoshop/wp-content/themes/flower-shop/images/footerbg.jpg);
+    background-position: top center;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    color: white;
+    .row
+    {
+        padding: 4.5rem 0;
+        h1
+        {
+            margin: 45px 0 30px;
+            font-size: 26px;
+            font-weight: bold;
+            position: relative;
+            padding-bottom: 3rem;
+            text-transform: uppercase;
+        }
+        p
+        {
+            margin: 0 0 20px;
+            font-size: 1.4rem;
+            span
+            {
+                color: $brand;
+                padding-right: 1.5rem;
+            }
+        }
+        ul
+        {
+            padding: 0;
+            li
+            {
+                margin-bottom: 1.5rem;
+                a
+                {
+                    color: white;
+                    font-size: 1.4rem;
+                    transition: .5s ease-in-out;
+                    i
+                    {
+                        margin-right: 1rem;
+                    }
+                    &:hover
+                    {
+                        color: $brand;
+                    }
+                }
+            }
+        }
+        form
+        {
+            position: relative;
+            input
+            {
+                height: 4rem;
+                border: none;
+                border-radius: 5px;
+                box-sizing: border-box;
+                padding: 10px 13px;
+                width: 100%;
+                margin: 0 !important;
+                background: #fff;
+                font-size: 1.5rem;
+            }
+            .submit
+            {
+                background-color: $brand;
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 700;
+                display: inline;
+                width: 5rem;
+                height: 3.5rem;
+                position: absolute;
+                top: .2rem;
+                right: .5rem;
+            }
+        }
+        .social_icons
+        {
+            margin-top: 4rem;
+            a
+            {
+                color: white;
+                display: inline-block;
+                font-size: 18px;
+                height: 42px;
+                line-height: 42px;
+                margin-bottom: 10px;
+                margin-right: 3px;
+                text-align: center;
+                width: 42px;
+                background-color: #1c1c1c;
+            }
+        }
+    }
+}
